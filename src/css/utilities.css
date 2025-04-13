@@ -167,6 +167,14 @@ h2::selection {
 .card:nth-child(6) {
   background: url(../assets/project/project-six.png) center center/cover;
 }
+.prevent-select {
+  -webkit-user-select: none;
+  /* Safari */
+  -ms-user-select: none;
+  /* IE 10 and IE 11 */
+  user-select: none;
+  /* Standard syntax */
+}
 
 /* Media Queries */
 @media (max-width: 768px) {
